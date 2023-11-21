@@ -9,7 +9,6 @@ public class AulaTdeApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(AulaTdeApplication.class, args);
-
 		System.out.println("Testando!!!");
 	}
 

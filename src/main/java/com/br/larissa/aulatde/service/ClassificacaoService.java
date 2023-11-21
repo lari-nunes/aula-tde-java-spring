@@ -4,10 +4,12 @@ import com.br.larissa.aulatde.model.Classificacao;
 import com.br.larissa.aulatde.model.Produto;
 import com.br.larissa.aulatde.repository.ClassificacaoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class ClassificacaoService {
 
     @Autowired
